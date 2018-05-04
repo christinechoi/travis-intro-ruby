@@ -1,1 +1,3 @@
 language: ruby
+script: ruby test/test_server.rb # <== new
+
