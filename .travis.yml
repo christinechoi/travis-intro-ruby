@@ -3,7 +3,7 @@ script: ruby test/test_server.rb # <== new
 # ⬇ new!
 deploy:
   provider: releases
-  api_key: $GITHUB_OAUTH_TOKEN
+  api_key: $cc3ca50aa1eec8fee71b342156990e8f8dba92d7
   file: lib/server.rb
   on:
     tags: true
